@@ -41,8 +41,8 @@ class GoodsList extends StatelessWidget {
     return Card(
       margin: EdgeInsets.fromLTRB(12, 3, 12, 3),
       child: Container(
-        padding: EdgeInsets.fromLTRB(12, 8, 12, 8),
-        height: ScreenUtil().setHeight(140),
+        padding: EdgeInsets.fromLTRB(12, 4, 12, 4),
+        height: ScreenUtil().setHeight(180),
         child: Row(
           children: <Widget>[
             Expanded(
@@ -51,7 +51,7 @@ class GoodsList extends StatelessWidget {
               children: <Widget>[
                 Text(
                   itemEntity.name,
-                  style: TextStyle(fontSize: 18),
+                  style: TextStyle(fontSize: ScreenUtil().setSp(48)),
                 ),
                 Row(
                   children: <Widget>[
