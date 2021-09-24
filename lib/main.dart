@@ -22,6 +22,8 @@ class MyApp extends StatelessWidget {
       title: "Goods Check",
       home: HomePage(),
     );
+
+
   }
 }
 
